@@ -79,31 +79,33 @@
     }
 
     .container .tab1{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         margin-top: 60px;
     }
 
     .container .tab1 .div1 {
-        width: 100%;
+
         margin-top: 80px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
     }
 
     .container .tab1 .div1 h2 {
         color: #252b46;
         font-size: 31px;
         width: 403px;
-        margin: 0px auto;
     }
 
     .container .tab1 .div1 p {
         width: 415px;
         color: #9194a1;
         line-height: 28px;
-        margin: 24px auto;
+
     }
 
     .container .tab1 .div1 .inputs{
@@ -112,7 +114,7 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin-left: 121px;
+
     }
 
     .container .tab1 .div1 .inputs .button1{
